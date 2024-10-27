@@ -1,0 +1,21 @@
+{
+  "name": "msallehi/env-loader",
+  "description": "A simple PHP environment loader.",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "EnvLoader\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Mohammad Salehi",
+      "email": "mohamad.salehi.dev@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.6"
+  }
+}
+
